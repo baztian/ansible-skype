@@ -7,7 +7,7 @@
       - dirmngr
 - name: Add Microsoft Skype apt signing key on remote server to keyring
   apt_key:
-    id: D4040146BE3972509FD57FC71F3045A5DF7587C3
+    id: F60A017E3CA5558FAF2439556B4A0000A4EBB320
     keyserver: keyserver.ubuntu.com
   tags: skype
 - name: Add apt repo for Skype
